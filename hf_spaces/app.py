@@ -109,7 +109,7 @@ def run_proactive():
 def run_safety_gate(action_type: str, verb: str, consent: str, c_stated: float, description: str):
     """Run safety gate evaluation on a single action."""
     kernel = get_kernel()
-    from oeon_os.safety_gate import SafetyGate
+    from lwm_fab.safety_gate import SafetyGate
 
     gate = kernel.safety_gate
     node = DAGNode(

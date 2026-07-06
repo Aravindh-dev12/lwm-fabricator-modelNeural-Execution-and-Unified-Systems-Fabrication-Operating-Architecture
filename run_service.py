@@ -1,4 +1,4 @@
-"""Oeon OS — Persistent Service Script.
+"""LWM Fabricator — Persistent Service Script.
 Keeps the kernel alive, accepts intents via CLI, runs proactive simulations periodically.
 Works with Ollama (local) or HF Inference API (remote)."""
 import sys

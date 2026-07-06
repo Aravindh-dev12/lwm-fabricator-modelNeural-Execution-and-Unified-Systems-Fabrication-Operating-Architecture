@@ -188,7 +188,7 @@ Consent level = max(consent_levels) across matched domains
 ## Project Structure
 
 ```
-lwm-fabricator/
+lwm-fabricator-model/
 ├── lwm_fab/                     # Main package
 │   ├── __init__.py
 │   ├── kernel.py                # LWMFabricator: orchestrates all 9 layers
@@ -216,6 +216,7 @@ lwm-fabricator/
 ├── test_run.py                  # Quick test script
 ├── .gitignore
 ├── requirements.txt
+├── Capability of Fabrication os.pdf  # Original paper
 └── README.md
 ```
 
@@ -248,7 +249,7 @@ python run_service.py
 2. Select Gradio SDK
 3. Upload `hf_spaces/` contents + `lwm_fab/` package
 4. Set `HF_TOKEN` environment variable for LLM inference
-5. Your app is live at `https://YOUR_USERNAME-lwm-fabricator.hf.space`
+5. Your app is live at `https://aravindh-dev12-lwm-fabricator.hf.space`
 
 ### Option 5: Live LLM (Local Ollama)
 

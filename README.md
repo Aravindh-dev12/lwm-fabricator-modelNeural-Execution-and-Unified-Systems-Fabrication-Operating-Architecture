@@ -1,8 +1,11 @@
-# LWM Fabricator - Capability Fabrication via Latent World Models
+# NEXUS-LWM OS
 
-**On-Demand Synthesis and Safe Execution of AI Operating System Capabilities**
+**Neural Execution and Unified Systems Fabrication Operating Architecture**
 
-## Unified Automation OS
+An MCP-native operating system for safe cross-system automation, latent-world
+planning, capability fabrication, workflow orchestration, and governed execution.
+
+## Unified Automation Architecture
 
 Version 0.2 adds a Linux-first automation control plane that treats MCP servers
 as a shared capability bus rather than separate user-facing agents. It includes:

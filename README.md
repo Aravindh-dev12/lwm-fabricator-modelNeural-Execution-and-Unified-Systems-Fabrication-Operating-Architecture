@@ -2,6 +2,27 @@
 
 **On-Demand Synthesis and Safe Execution of AI Operating System Capabilities**
 
+## Unified Automation OS
+
+Version 0.2 adds a Linux-first automation control plane that treats MCP servers
+as a shared capability bus rather than separate user-facing agents. It includes:
+
+- real MCP JSON-RPC stdio discovery and tool calls;
+- n8n-style workflow DAGs with dependencies, expressions, conditions and retries;
+- approval gates for writes and privileged operations;
+- workspace-confined Linux capabilities and environment-backed secrets;
+- persistent webhook and interval triggers;
+- a hash-chained audit trail, resumable CLI and authenticated HTTP API.
+
+```bash
+python lwm_os.py --mcp-config mcp.json capabilities
+python lwm_os.py --workspace /tmp/lwm run examples/hello_workflow.json
+python lwm_api.py --workspace /tmp/lwm --mcp-config mcp.json
+```
+
+The public workflow console is live at
+[lwm-fabricator-console.thearc12.chatgpt.site](https://lwm-fabricator-console.thearc12.chatgpt.site).
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aravindh-dev12/lwm-fabricator-model/blob/main/lwm_fab_colab.ipynb)
 [![HuggingFace Spaces](https://img.shields.io/badge/%F0%9F%A4%97-HF%20Spaces-blue)](https://huggingface.co/spaces/Aravindh-dev12/lwm-fabricator)
 

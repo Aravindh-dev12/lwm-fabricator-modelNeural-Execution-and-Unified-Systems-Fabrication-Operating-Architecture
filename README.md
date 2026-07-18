@@ -24,7 +24,6 @@ python lwm_api.py --workspace /tmp/lwm --mcp-config mcp.json
 ```
 
 The public workflow console is live at
-[lwm-fabricator-console.thearc12.chatgpt.site](https://lwm-fabricator-console.thearc12.chatgpt.site).
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aravindh-dev12/lwm-fabricator-model/blob/main/lwm_fab_colab.ipynb)
 [![HuggingFace Spaces](https://img.shields.io/badge/%F0%9F%A4%97-HF%20Spaces-blue)](https://huggingface.co/spaces/Aravindh-dev12/lwm-fabricator)
